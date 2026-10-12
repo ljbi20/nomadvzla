@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from '../assets/images/logo-04.png';
+import logoImg from '../logo-04.png';
 
 interface NomadLogoProps {
   className?: string;
