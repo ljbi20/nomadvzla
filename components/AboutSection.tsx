@@ -17,7 +17,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onQuoteClick }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl group">
               <img
-                src="/src/assets/images/leonardo_briceno_IMG_5201.jpg"
+                src="/leonardo_briceno_IMG_5201.jpg"
                 alt="Leonardo Briceño - Fotógrafo profesional"
                 className="w-full aspect-[4/5] object-cover object-center group-hover:scale-102 transition-transform duration-500"
                 referrerPolicy="no-referrer"
