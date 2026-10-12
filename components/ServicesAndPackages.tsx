@@ -164,7 +164,7 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
                         ? { height: '330px' }
                         : undefined
                     }
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
+                    className="w-full h-[330px] object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent" />
