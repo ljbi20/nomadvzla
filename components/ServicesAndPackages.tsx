@@ -143,19 +143,31 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
           {filteredPackages.map((pkg) => {
             const isFeatured = pkg.id === 'express' || pkg.id === 'on-the-go';
 
-            return (
-  <div className={`relative ${pkg.id === 'start' || pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'esencial' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'on-the-go' || pkg.id === 'all-day' ? 'h-[330px]' : 'h-44'} overflow-hidden bg-neutral-950`}>
-    <img
-      src={getCategoryImage(pkg.id)}
-      alt={pkg.name}
-      style={{ height: '330px' }}
-      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
-      referrerPolicy="no-referrer"
-    />
-    <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent" />
-  </div>
-)
-
+   return (
+              <div
+                key={pkg.id}
+                className={`flex flex-col justify-between rounded-2xl overflow-hidden border transition-all duration-300 relative group ${
+                  isFeatured
+                    ? 'bg-neutral-900 border-red-500/70 shadow-2xl shadow-red-900/20'
+                    : 'bg-neutral-900/60 border-neutral-800 hover:border-neutral-700 hover:bg-neutral-900/90'
+                }`}
+              >
+                {/* Visual Header Image Preview */}
+                <div className={`relative ${pkg.id === 'start' || pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'esencial' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'on-the-go' || pkg.id === 'all-day' ? 'h-[330px]' : 'h-44'} overflow-hidden bg-neutral-950`}>
+                  <img
+                    src={getCategoryImage(pkg.id)}
+                    alt={pkg.name}
+                    style={
+                      pkg.id === 'start' || pkg.id === 'esencial' || pkg.id === 'on-the-go'
+                        ? { width: 'full', height: 'full' }
+                        : pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'all-day'
+                        ? { height: 'full' }
+                        : undefined
+                    }
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent" />
 
                   {/* Category and badge indicator */}
                   <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
