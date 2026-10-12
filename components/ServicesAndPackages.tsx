@@ -29,7 +29,7 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
   const getCategoryImage = (pkgId: string) => {
     switch (pkgId) {
       case 'start':
-        return '//package_start_1791748638480.jpg';
+        return '/package_start_1791748638480.jpg';
       case 'plus':
         return '/regenerated_image_1791749385471.png';
       case 'express':
