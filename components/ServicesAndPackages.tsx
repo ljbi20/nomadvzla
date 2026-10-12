@@ -35,7 +35,7 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
       case 'express':
         return '/portrait_urban_1791742847864.jpg';
       case 'esencial':
-        return '/IMG_7019.jpg';
+        return '/marthainfante.jpg';
       case 'ecommerce':
         return '/package_ecommerce_1791751976818.jpg';
       case 'lifestyle-prod':
