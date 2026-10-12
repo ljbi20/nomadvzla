@@ -153,7 +153,7 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
                 }`}
               >
                 {/* Visual Header Image Preview */}
-                <div className={`relative ${pkg.id === 'start' || pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'esencial' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'on-the-go' || pkg.id === 'all-day' ? 'h-[330px]' : 'h-44'} overflow-hidden bg-neutral-950`}>
+                <div className={`relative w-full h-[330px] overflow-hidden ${pkg.id === 'start' || pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'esencial' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'on-the-go' || pkg.id === 'all-day' ? 'h-[330px]' : 'h-44'} overflow-hidden bg-neutral-950`}>
                   <img
                     src={getCategoryImage(pkg.id)}
                     alt={pkg.name}
