@@ -153,15 +153,15 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
                 }`}
               >
                 {/* Visual Header Image Preview */}
-<div className="relative w-full h-[330px] overflow-hidden">
-  <img
-    src={getCategoryImage(pkg.id)}
-    alt={pkg.name}
-    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
-    referrerPolicy="no-referrer"
-  />
-  <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent" />
-</div>
+                <div className="relative w-full h-[330px] overflow-hidden">
+                  <img
+                     src={getCategoryImage(pkg.id)}
+                     alt={pkg.name}
+                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
+                     referrerPolicy="no-referrer"
+                   />
+                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent" />
+                </div>
 
                   
                   {/* Category and badge indicator */}
