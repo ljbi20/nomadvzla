@@ -1,0 +1,6 @@
+{
+  "name": "nomad.vzla | Leonardo Briceño - Servicios Fotográficos",
+  "description": "Portafolio y servicios fotográficos profesionales por Leonardo Briceño (nomad.vzla). Retratos urbanos, fotografía de producto y cobertura de eventos. Cotizaciones y contacto directo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
