@@ -29,23 +29,23 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
   const getCategoryImage = (pkgId: string) => {
     switch (pkgId) {
       case 'start':
-        return '/src/assets/images/package_start_1791748638480.jpg';
+        return '//package_start_1791748638480.jpg';
       case 'plus':
-        return '/src/assets/images/regenerated_image_1791749385471.png';
+        return '/regenerated_image_1791749385471.png';
       case 'express':
-        return '/src/assets/images/portrait_urban_1791742847864.jpg';
+        return '/portrait_urban_1791742847864.jpg';
       case 'esencial':
-        return '/src/assets/images/package_esencial_IMG_2968.jpg';
+        return '/package_esencial_IMG_2968.jpg';
       case 'ecommerce':
-        return '/src/assets/images/package_ecommerce_1791751976818.jpg';
+        return '/package_ecommerce_1791751976818.jpg';
       case 'lifestyle-prod':
-        return '/src/assets/images/product_sneaker_1791742856482.jpg';
+        return '/product_sneaker_1791742856482.jpg';
       case 'on-the-go':
-        return '/src/assets/images/event_marathon_1791742866318.jpg';
+        return '/event_marathon_1791742866318.jpg';
       case 'all-day':
-        return '/src/assets/images/brand_activation_1791742876676.jpg';
+        return '/brand_activation_1791742876676.jpg';
       default:
-        return '/src/assets/images/hero_photographer_1791742838768.jpg';
+        return '/hero_photographer_1791742838768.jpg';
     }
   };
 
