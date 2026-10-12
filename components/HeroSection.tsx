@@ -155,7 +155,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Real Photographer Image */}
               <div className="aspect-[4/5] sm:aspect-[3/4] w-full overflow-hidden bg-neutral-950">
                 <img
-                  src="/src/assets/images/hero_photographer_1791742838768.jpg"
+                  src="/hero_photographer_1791742838768.jpg"
                   alt="Leonardo Briceño - Fotógrafo nomad.vzla en Caracas"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 brightness-95"
                   referrerPolicy="no-referrer"
