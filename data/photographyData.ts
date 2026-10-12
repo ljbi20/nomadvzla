@@ -1,4 +1,4 @@
-xport interface PackageItem {
+export interface PackageItem {
   id: string;
   category: 'retratos' | 'producto' | 'eventos';
   name: string;
