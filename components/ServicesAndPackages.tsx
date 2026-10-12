@@ -29,13 +29,13 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
   const getCategoryImage = (pkgId: string) => {
     switch (pkgId) {
       case 'start':
-        return '/package_start_1791748638480.jpg';
+        return '/IMG_9437 (2).jpg';
       case 'plus':
         return '/regenerated_image_1791749385471.png';
       case 'express':
         return '/portrait_urban_1791742847864.jpg';
       case 'esencial':
-        return '/package_esencial_IMG_2968.jpg';
+        return '/IMG_7019.jpg';
       case 'ecommerce':
         return '/package_ecommerce_1791751976818.jpg';
       case 'lifestyle-prod':
