@@ -157,7 +157,7 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
                   <img
                     src={getCategoryImage(pkg.id)}
                     alt={pkg.name}
-                    style={
+                    style={{ height: '330px' }}
                       pkg.id === 'start' || pkg.id === 'esencial' || pkg.id === 'on-the-go'
                         ? { width: 'full', height: 'full' }
                         : pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'all-day'
