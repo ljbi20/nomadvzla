@@ -157,11 +157,11 @@ export const ServicesAndPackages: React.FC<ServicesAndPackagesProps> = ({ onSele
                   <img
                     src={getCategoryImage(pkg.id)}
                     alt={pkg.name}
-                    style={{ height: '330px' }}
+                    style={
                       pkg.id === 'start' || pkg.id === 'esencial' || pkg.id === 'on-the-go'
                         ? { width: 'full', height: 'full' }
                         : pkg.id === 'express' || pkg.id === 'plus' || pkg.id === 'ecommerce' || pkg.id === 'lifestyle-prod' || pkg.id === 'all-day'
-                        ? { height: 'full' }
+                        ? { height: '330px' }
                         : undefined
                     }
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-75 group-hover:opacity-90"
